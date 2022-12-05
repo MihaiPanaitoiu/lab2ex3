@@ -15,8 +15,8 @@ namespace lab2ex3
             Console.WriteLine("Introduceti un sir de numere:");
 
             int nums = int.Parse(Console.ReadLine());
-            int sum = 0;
-            int countNrPare = 0;
+            int sum;
+            int countNrPare;
             
             for (int i = 1; nums > 0; i++)
             {
